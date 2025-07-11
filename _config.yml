@@ -16,6 +16,12 @@ timezone: America/Chicago
 tagline: Basic Tagline
 paginate: 10
 
+github:
+  username: miles-howell
+
+twitter:
+  username: test
+
 # -- Build settings --
 # We are using the default theme, minima, but overriding the layouts.
 theme: jekyll-theme-chirpy
