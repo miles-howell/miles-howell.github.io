@@ -35,25 +35,12 @@ jobs:
           ruby-version: '3.1' # The version of Ruby to use
           bundler-cache: true # runs 'bundle install' and caches installed gems
 
-      # ADDED: Setup Node.js for the JavaScript build step
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          # UPDATED: Use a newer version of Node.js to match theme requirements
-          node-version: "18"
-
-      # ADDED: Install JS dependencies and build the assets
-      - name: Build JS Assets
-        run: |
-          npm install
-          npm run build
-
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
 
       - name: Build with Jekyll
-        # Outputs to the './_site' directory by default
+        # This is the only build step needed for a gem-based theme
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
