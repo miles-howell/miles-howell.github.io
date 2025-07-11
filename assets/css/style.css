@@ -1,0 +1,36 @@
+/* Using Tailwind CSS via CDN for most styling, but this file is here for any custom CSS you might want to add. */
+
+/* Set a modern, readable font for the entire site */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom styles for the prose class used in blog posts for typography */
+.prose {
+    color: #374151; /* text-gray-700 */
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+    color: #111827; /* text-gray-900 */
+    font-weight: 700;
+}
+
+.prose a {
+    color: #2563eb; /* text-blue-600 */
+    text-decoration: none;
+}
+
+.prose a:hover {
+    text-decoration: underline;
+}
+
+.prose pre {
+    background-color: #f3f4f6; /* bg-gray-100 */
+    border-radius: 0.5rem; /* rounded-lg */
+    padding: 1rem;
+    overflow-x: auto;
+}
+
+.prose code {
+    font-family: monospace;
+}
