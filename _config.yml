@@ -25,3 +25,16 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
+
+#
+# Profile Information
+#
+avatar: /assets/img/avatar.jpg # Path to your avatar image
+bio: "A brief bio about yourself."
+social:
+  name: Miles Howell
+  email: miles@plannedpixel.com
+  links:
+    # The first element serves as the copyright owner's link
+    - https://twitter.com/YourUsername
+    - https://github.com/miles-howell
