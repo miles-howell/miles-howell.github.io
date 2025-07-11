@@ -19,9 +19,6 @@ paginate: 10
 github:
   username: miles-howell
 
-instagram:
-  username: mhcporty
-
 # -- Build settings --
 # We are using the default theme, minima, but overriding the layouts.
 theme: jekyll-theme-chirpy
