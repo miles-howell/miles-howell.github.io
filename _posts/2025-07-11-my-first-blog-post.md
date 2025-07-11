@@ -5,7 +5,6 @@ date: 2025-07-11 09:17:00 -0500
 categories: [Machine Learning]
 tags: [Reinforcement Learning]
 excerpt_separator: <!--more-->
-toc: true
 ---
 
 This is the introduction to your first blog post. You can write about anything you like. This template is designed to be flexible and easy to use.
