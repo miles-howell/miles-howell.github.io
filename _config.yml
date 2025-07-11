@@ -1,0 +1,27 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that.
+
+# -- Site Settings --
+title: Miles Howell # Appears in the browser tab
+email: miles@plannedpixel.com
+description: >- # this means to ignore newlines until "baseurl:"
+  A short description of your blog. This will be used by search engines.
+baseurl: "" # the subpath of your site, e.g. /blog. If you're using a custom domain, this is usually empty.
+url: "https://miles-howell.github.io" # your site's full URL
+github_username:  miles-howell
+
+# -- Build settings --
+# We are using the default theme, minima, but overriding the layouts.
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Tells Jekyll to use Tailwind CSS
+# This part is important for making the design work.
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The title will be dynamically set by each page -->
+    <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Include the header -->
+    {% include header.html %}
+
+    <!-- Main content from pages/posts gets injected here -->
+    <main class="flex-grow">
+        {{ content }}
+    </main>
+
+    <!-- Include the footer -->
+    {% include footer.html %}
+
+    <!-- Include the TOC script only on post pages -->
+    {% if page.layout == 'post' %}
+        <script src="{{ "/assets/js/toc.js" | relative_url }}"></script>
+    {% endif %}
+
+</body>
+</html>
