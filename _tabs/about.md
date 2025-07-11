@@ -4,9 +4,9 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-My name is Miles Howell, and I'm a builder at heart. My journey into technology wasn't a straight line — it started with a foundation in physics and systems engineering, detoured into crafting custom Game Boy cartridges from scratch, and has now found a home in the world of Machine Learning.
+My name is Miles Howell, and I'm a builder at heart. My journey through technology hasn't been a straight line — it started with a childhood curiosity that's since grown, thanks to a foundation in physics, mathematics and systems engineering, into a professional passion. I now focus on unraveling the unexpected, emergent behaviors we're beginning to find in current LLMs.
 
-This background gives me a unique perspective. I see ML not just as abstract algorithms, but as a part of a larger system — one that involves clean code, thoughtful user experience, and real-world application.
+This background gives me a unique perspective. I see ML not just as abstract algorithms, but as a part of a larger system — one that involves clean code, thoughtful user experience, and real-world application. How will AI evolve alongside humanity? And will the two ever meaningfully intertwine? 
 
 ### Why This Blog?
 
