@@ -14,7 +14,7 @@ github_username:  miles-howell
 
 # -- Build settings --
 # We are using the default theme, minima, but overriding the layouts.
-theme: minima
+theme: jekyll-theme-chirpy
 plugins:
   - jekyll-feed
 
