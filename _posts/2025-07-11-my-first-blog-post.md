@@ -2,7 +2,7 @@
 layout: post
 title: "My First Blog Post"
 date: 2025-07-11 09:17:00 -0500
-categories: [Machine Learning, AI]
+categories: [Machine Learning]
 tags: [Reinforcement Learning]
 excerpt_separator: <!--more-->
 toc: true
