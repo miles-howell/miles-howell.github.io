@@ -39,7 +39,8 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "16"
+          # UPDATED: Use a newer version of Node.js to match theme requirements
+          node-version: "18"
 
       # ADDED: Install JS dependencies and build the assets
       - name: Build JS Assets
