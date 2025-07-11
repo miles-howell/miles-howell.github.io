@@ -47,15 +47,16 @@
 <!-- 5. Initialize Tocbot -->
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    // The Chirpy theme places the main post content inside a div with class 'content'.
-    const contentArea = document.querySelector('.content');
+    // The Chirpy theme places the main post content inside an <article> tag.
+    const contentArea = document.querySelector('article');
 
     if (contentArea) {
       tocbot.init({
         // Where to render the table of contents.
         tocSelector: '.js-toc',
         // Where to grab the headings from.
-        contentSelector: '.content',
+        // CHANGE: Target the <article> tag directly for reliability.
+        contentSelector: 'article',
         // Which headings to grab.
         headingSelector: 'h2, h3, h4',
         // Make the TOC collapsible
