@@ -35,18 +35,26 @@ jobs:
           ruby-version: '3.1' # The version of Ruby to use
           bundler-cache: true # runs 'bundle install' and caches installed gems
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Build JS Assets
+        run: |
+          npm install
+          npm run build
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
 
       - name: Build with Jekyll
-        # This is the only build step needed for a gem-based theme
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
 
       - name: Upload artifact
-        # Automatically uploads an artifact from the './_site' directory
         uses: actions/upload-pages-artifact@v3
 
   # Deployment job

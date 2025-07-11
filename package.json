@@ -1,0 +1,27 @@
+{
+  "name": "jekyll-theme-chirpy",
+  "version": "1.0.0",
+  "description": "A minimal, responsive, and feature-rich Jekyll theme for technical writing.",
+  "scripts": {
+    "build": "npm-run-all --parallel build:js build:css",
+    "build:js": "rollup --config",
+    "build:css": "sass --style=compressed --source-map --no-error-css assets/css/style.scss:assets/css/jekyll-theme-chirpy.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cotes2020/jekyll-theme-chirpy.git"
+  },
+  "author": "Cotes Chung",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "npm-run-all": "^4.1.5",
+    "rollup": "^4.18.0",
+    "sass": "^1.77.6"
+  }
+}
