@@ -1,12 +1,5 @@
-<!--
-  A custom Table of Contents implementation using the Tocbot library.
-  This file overrides the default _includes/toc.html from the Chirpy theme.
--->
-
-<!-- 1. Load Tocbot's CSS from a CDN -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.20/tocbot.css">
 
-<!-- 2. Add some custom styles to make Tocbot match the Chirpy theme -->
 <style>
   .js-toc {
     font-size: 0.9rem;
@@ -38,25 +31,22 @@
   }
 </style>
 
-<!-- 3. Create the container where the TOC will be rendered -->
 <div class="js-toc"></div>
 
-<!-- 4. Load Tocbot's JavaScript from a CDN -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.20/tocbot.min.js"></script>
 
-<!-- 5. Initialize Tocbot -->
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    // The Chirpy theme places the main post content inside an <article> tag.
-    const contentArea = document.querySelector('article');
+    // The Chirpy theme places the main post content inside a div with class 'content'.
+    const contentArea = document.querySelector('.content');
 
     if (contentArea) {
       tocbot.init({
         // Where to render the table of contents.
         tocSelector: '.js-toc',
         // Where to grab the headings from.
-        // CHANGE: Target the <article> tag directly for reliability.
-        contentSelector: 'article',
+        // FINAL FIX: Target the specific div that contains the post's H2/H3 tags.
+        contentSelector: '.content',
         // Which headings to grab.
         headingSelector: 'h2, h3, h4',
         // Make the TOC collapsible
