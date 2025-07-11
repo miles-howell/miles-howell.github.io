@@ -1,0 +1,74 @@
+<!--
+  A custom Table of Contents implementation using the Tocbot library.
+  This file overrides the default _includes/toc.html from the Chirpy theme.
+-->
+
+<!-- 1. Load Tocbot's CSS from a CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.20/tocbot.css">
+
+<!-- 2. Add some custom styles to make Tocbot match the Chirpy theme -->
+<style>
+  .js-toc {
+    font-size: 0.9rem;
+  }
+  .toc-list {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .toc-list-item {
+    margin-bottom: 5px;
+    line-height: 1.4;
+  }
+  .toc-link {
+    color: var(--text-muted-color); /* Use Chirpy's theme variable for color */
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  .toc-link:hover {
+    color: var(--link-color); /* Use Chirpy's theme variable for hover color */
+  }
+  .is-active-link {
+    font-weight: bold;
+    color: var(--link-color);
+  }
+  /* Indent nested lists */
+  .toc-list-item > .toc-list {
+    padding-left: 20px;
+  }
+</style>
+
+<!-- 3. Create the container where the TOC will be rendered -->
+<div class="js-toc"></div>
+
+<!-- 4. Load Tocbot's JavaScript from a CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.20/tocbot.min.js"></script>
+
+<!-- 5. Initialize Tocbot -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // The Chirpy theme places the main post content inside a div with class 'content'.
+    const contentArea = document.querySelector('.content');
+
+    if (contentArea) {
+      tocbot.init({
+        // Where to render the table of contents.
+        tocSelector: '.js-toc',
+        // Where to grab the headings from.
+        contentSelector: '.content',
+        // Which headings to grab.
+        headingSelector: 'h2, h3, h4',
+        // Make the TOC collapsible
+        collapseDepth: 0,
+        // Add nice classes for styling.
+        orderedListClass: 'toc-list',
+        listItemClass: 'toc-list-item',
+        linkClass: 'toc-link',
+        activeLinkClass: 'is-active-link',
+        // Add scroll-smoothing
+        scrollSmooth: true,
+        scrollSmoothDuration: 420,
+      });
+    }
+  });
+</script>
