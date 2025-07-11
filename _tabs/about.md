@@ -29,8 +29,8 @@ Here, we'll venture beyond the basics. I'll be documenting my projects, sharing 
 > - Building practical, human-centered AI tools from the ground up.
 {: .prompt-tip }
 
-This is a learning journey for me as much as it is a platform for sharing. I'll show my work, including the parts that don't go as planned, because that's often where the most valuable lessons are found.
+This is a learning journey for me as much as it is a platform for sharing. If the work here resonates with you, feel free to reach out. I'd love to collaborate with someone who shares similar perspectives.
 
 ### Let's Connect
 
-Thank you for stopping by. I'm always open to new ideas and collaborations. If the work here resonates with you, feel free to reach out. Let's build something that works—and maybe even something that matters.
+Thank you for stopping by. I'm always open to new ideas and collaborations.
