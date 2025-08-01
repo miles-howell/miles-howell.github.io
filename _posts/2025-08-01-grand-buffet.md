@@ -11,7 +11,7 @@ toc: true
 
 There was a restaurant, unmarked but well-known, nestled between a shuttered shoe repair and a psychic whose window sign always read *Back in 10*. In every direction, gated windows and boarded doors—the street seeped a stench of disappointment. Above the entrance, a simple, weathered plaque read: *The Grand Buffet of Human Endeavor.*
 
-No neon. No gimmicks. Just the smell of something warm, nostalgic, dependable. Chicken.
+No neon. No gimmicks. Just the smell of something warm, nostalgic, dependable. *Chicken*.
 
 Inside, there were no menus, no music, no waitlists. Just one dish: the House Special. Chicken. Every day, every time. The kind you remembered from when things worked. The restaurant’s appeal was singular: it promised nothing more than competence. Not greatness. Not revolution. Just something done right. A rare thing in a world bloated with choices and predictable mediocrity.
 
@@ -37,11 +37,13 @@ Fourth: burnt skin, bleeding center. Fifth: deconstructed, bone wrapped in mouss
 
 It became personal.
 
-He looked around. Other diners wore similar expressionsHe stormed toward the swinging doors, fueled by an indignation that he was the only patron brave enough to cross the boundary into a world he had only ever seen in movies.disappointment curdling into outrage. Phones flicked on. Hashtags bloomed like mold. #ChickenFail. #BuffetBetrayal.
+He looked around. Other diners wore similar expressions disappointment curdling into outrage. Phones flicked on. Hashtags bloomed like mold. #ChickenFail. #BuffetBetrayal.
 
 Arthur felt it—that swell of shared indignation, the warm righteousness of the wronged. He felt pride that his fellow restaurant-goers had palates refined enough to understand the disgrace being presented.
 
-But no one stood. No one left.
+But... 
+
+No one stood. No one left.
 
 He waited for the fix. The apology. The correction. He always had. Systems corrected themselves eventually—didn’t they? Surely, the Chef understood what the people wanted, right? But alas, no change came. He felt his emotions boil over, like an unwatched pot of pasta. Glaring, watching his peers do nothing and continue to consume their own sad excuses for a meal.  And when his frustration finally tipped into motion, it wasn’t born of courage, but fury.
 
