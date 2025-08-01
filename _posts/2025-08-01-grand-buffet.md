@@ -9,13 +9,13 @@ tags: [Fable, Institutions, Trust, Passiveness]
 
 ### I. Arthur & The Restaurant
 
-There was a restaurant, unmarked but well-known, nestled between a shuttered shoe repair and a psychic whose window sign always read *Back in 10*. In every direction, gated windows and boarded doors — the street seeped a stench of disappointment. Above the entrance, a simple, weathered plaque read: *The Grand Buffet of Human Endeavor.*
+There was a restaurant, unmarked but well-known, nestled between a shuttered shoe repair and a psychic whose window sign always read *Back in 10*. In every direction, gated windows and boarded doors—the street seeped a stench of disappointment. Above the entrance, a simple, weathered plaque read: *The Grand Buffet of Human Endeavor.*
 
 No neon. No gimmicks. Just the smell of something warm, nostalgic, dependable. Chicken.
 
 Inside, there were no menus, no music, no waitlists. Just one dish: the House Special. Chicken. Every day, every time. The kind you remembered from when things worked. The restaurant’s appeal was singular: it promised nothing more than competence. Not greatness. Not revolution. Just something done right. A rare thing in a world bloated with choices and predictable mediocrity.
 
-Arthur arrived like many before him. A man of refined tastes — not in flavor, but in grievance. His palate was a diagnostic tool, finely attuned to the failure of others. He appreciated systems, as long as they spared him effort. He expected functional quality and felt it was owed to him, like heat from a radiator. The very idea of needing to ask twice left a bitter taste.
+Arthur arrived like many before him. A man of refined tastes—not in flavor, but in grievance. His palate was a diagnostic tool, finely attuned to the failure of others. He appreciated systems, as long as they spared him effort. He expected functional quality and felt it was owed to him, like heat from a radiator. The very idea of needing to ask twice left a bitter taste.
 
 Upon entering, Arthur was guided to his table with a silence that sounded like servitude. The waiter pulled out the chair and placed a napkin in his lap. 
 
@@ -31,19 +31,19 @@ He waved the waiter back. "Could I have another, please? A fresh one. Cooked pro
 
 The second chicken arrived—pale, rubbery, sweat-beaded. Arthur chewed once and gagged theatrically. No protest yet. Just another mark tallied.
 
-The third came cold. Raw in the center. He pushed the plate away with contempt; it skittered across the table, nearly crashing to the floor. He’d seen this before — deliberate incompetence. An institution testing your tolerance. Seeing what it can get away with.
+The third came cold. Raw in the center. He pushed the plate away with contempt; it skittered across the table, nearly crashing to the floor. He’d seen this before—deliberate incompetence. An institution testing your tolerance. Seeing what it can get away with.
 
 Fourth: burnt skin, bleeding center. Fifth: deconstructed, bone wrapped in mousse, surrounded by tarragon foam.
 
 It became personal.
 
-He looked around. Other diners wore similar expressions—disappointment curdling into outrage. Phones flicked on. Hashtags bloomed like mold. #ChickenFail. #BuffetBetrayal.
+He looked around. Other diners wore similar expressionsHe stormed toward the swinging doors, fueled by an indignation that he was the only patron brave enough to cross the boundary into a world he had only ever seen in movies.disappointment curdling into outrage. Phones flicked on. Hashtags bloomed like mold. #ChickenFail. #BuffetBetrayal.
 
-Arthur felt it — that swell of shared indignation, the warm righteousness of the wronged. He felt pride that his fellow restaurant-goers had refined enough palates to understand the disgrace being presented.
+Arthur felt it—that swell of shared indignation, the warm righteousness of the wronged. He felt pride that his fellow restaurant-goers had refined enough palates to understand the disgrace being presented.
 
 But no one stood. No one left.
 
-He waited for the fix. The apology. The correction. He always had. Systems corrected themselves eventually — didn’t they? Surely, the Chef understood what the people wanted, right? But alas, no change came. He felt his emotions boil over, like an unwatched pot of pasta. Glaring, watching his peers do nothing and continue to consume their own sad excuses for a meal.  And when his frustration finally tipped into motion, it wasn’t born of courage, but fury.
+He waited for the fix. The apology. The correction. He always had. Systems corrected themselves eventually—didn’t they? Surely, the Chef understood what the people wanted, right? But alas, no change came. He felt his emotions boil over, like an unwatched pot of pasta. Glaring, watching his peers do nothing and continue to consume their own sad excuses for a meal.  And when his frustration finally tipped into motion, it wasn’t born of courage, but fury.
 
 ### III. Into the Kitchen
 
