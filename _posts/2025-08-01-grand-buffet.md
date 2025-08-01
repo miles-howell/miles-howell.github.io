@@ -2,9 +2,9 @@
 layout: post
 title: "The Grand Buffet of Human Endeavor"
 date: 2025-08-01 13:47:52 -0500
-author: Miles Howell
 categories: [Fiction, Allegory, Society]
 tags: [Fable, Institutions, Trust, Passiveness]
+toc: true
 ---
 
 ### I. Arthur & The Restaurant
@@ -39,7 +39,7 @@ It became personal.
 
 He looked around. Other diners wore similar expressionsHe stormed toward the swinging doors, fueled by an indignation that he was the only patron brave enough to cross the boundary into a world he had only ever seen in movies.disappointment curdling into outrage. Phones flicked on. Hashtags bloomed like mold. #ChickenFail. #BuffetBetrayal.
 
-Arthur felt it—that swell of shared indignation, the warm righteousness of the wronged. He felt pride that his fellow restaurant-goers had refined enough palates to understand the disgrace being presented.
+Arthur felt it—that swell of shared indignation, the warm righteousness of the wronged. He felt pride that his fellow restaurant-goers had palates refined enough to understand the disgrace being presented.
 
 But no one stood. No one left.
 
