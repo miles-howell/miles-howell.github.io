@@ -116,7 +116,7 @@ comments:
   # utterances settings › https://utteranc.es/
   utterances:
     repo: miles-howell/miles-howell.github.io
-    issue_term: pathname
+    issue_term: url
   # Giscus options › https://giscus.app
   giscus:
     repo: # <gh-username>/<repo>
