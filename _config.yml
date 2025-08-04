@@ -115,8 +115,8 @@ comments:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
-    repo: # <gh-username>/<repo>
-    issue_term: # < url | pathname | title | ...>
+    repo: miles-howell/miles-howell.github.io
+    issue_term: pathname
   # Giscus options › https://giscus.app
   giscus:
     repo: # <gh-username>/<repo>
