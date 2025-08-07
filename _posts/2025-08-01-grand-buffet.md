@@ -9,13 +9,13 @@ toc: true
 
 ### I. Arthur & The Restaurant
 
-There was a restaurant, unmarked but well-known, nestled between a shuttered shoe repair and a psychic whose window sign always read *Back in 10*. In every direction, gated windows and boarded doors. Advertisements for plasma donation programs, military recruitment, and the brand new ePhone littered the street. Some were even strewn about the street, blown around like tumbleweeds in an old western movie. Above the entrance, a simple, weathered plaque read: *The Grand Buffet of Human Endeavor.*
+There was a restaurant, unmarked but well-known, nestled between a shuttered shoe repair and a psychic whose window sign always read *Back in 10*. In every direction, gated windows and boarded doors. Advertisements for plasma donation programs, military recruitment, and the brand new ePhone littered the street. Some were even strewn about, blowing around like tumbleweeds in an old western movie. Above the entrance, a simple, weathered plaque read: *The Grand Buffet of Human Endeavor.*
 
 No neon. No gimmicks. Just the smell of something warm, nostalgic, dependable. *Chicken*.
 
 Inside, there were no menus, no music, no waitlists. Just one dish: the House Special. Chicken. Every day, every time. The kind you remembered from when things worked. The restaurant’s appeal was singular: it promised nothing more than competence. Not greatness. Not revolution. Just something done right. A rare thing in a world bloated with choices and predictable mediocrity.
 
-Arthur arrived like many before him. A man of refined tastes—not in flavor, but in grievance. His palate was a diagnostic tool, finely attuned to the failure of others. He appreciated systems, as long as they spared him effort. He expected functional quality and felt it was owed to him, like heat from a radiator. The very idea of needing to ask twice left a bitter taste.
+Arthur arrived like many before him. A man of refined tastes—not in flavor, but in grievance. His palate was a diagnostic tool, finely attuned to the failure of others. He appreciated systems, as long as they spared him effort. He expected functional quality and felt it was owed to him, like water running from a faucet. The very idea of needing to ask twice left a bitter taste.
 
 Upon entering, Arthur was guided to his table with a silence that sounded like servitude. The waiter pulled out the chair and placed a napkin in his lap. 
 
@@ -37,7 +37,7 @@ Fourth: a failed elevation of giblet gravy. Fifth: deconstructed, bone wrapped i
 
 It became personal.
 
-He looked around. Other diners wore similar expressions disappointment curdling into outrage. Phones flicked on. Hashtags bloomed like mold. #ChickenFail. #BuffetBetrayal.
+He looked around. Other diners wore similar expressions of disappointment curdling into outrage. Phones flicked on. Hashtags bloomed like mold. #ChickenFail. #BuffetBetrayal.
 
 Arthur felt a swell of shared indignation, the warm righteousness of the wronged. He felt pride that his fellow restaurant-goers had palates refined enough to understand the disgrace being presented.
 
@@ -77,7 +77,7 @@ It gestured with a singed wing toward the dining room. "This… *this* they don'
 
 ### IV. The Misunderstanding
 
-Arthur sank onto a milk-crate. The tile was cold beneath him. He felt hollow, a balloon deflated not by force, but by understanding.
+Arthur sank onto a milk-crate. The tile cold tile radiated beneath him. He felt hollow, a balloon deflated not by force, but by understanding.
 
 This wasn’t sabotage. It wasn't laziness, contempt, or malevolence. It was fear. A desperate, misguided strategy born from being endlessly scrutinized.
 
