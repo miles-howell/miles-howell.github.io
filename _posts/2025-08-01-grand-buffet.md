@@ -9,7 +9,7 @@ toc: true
 
 ### I. Arthur & The Restaurant
 
-There was a restaurant, unmarked but well-known, nestled between a shuttered shoe repair and a psychic whose window sign always read *Back in 10*. In every direction, gated windows and boarded doors. Advertisements for plasma donation programs, military recruitement, and the brand new ePhone littered the street. Some were even strewn about the street, blown around like tumbleweeds in an old western movie. Above the entrance, a simple, weathered plaque read: *The Grand Buffet of Human Endeavor.*
+There was a restaurant, unmarked but well-known, nestled between a shuttered shoe repair and a psychic whose window sign always read *Back in 10*. In every direction, gated windows and boarded doors. Advertisements for plasma donation programs, military recruitment, and the brand new ePhone littered the street. Some were even strewn about the street, blown around like tumbleweeds in an old western movie. Above the entrance, a simple, weathered plaque read: *The Grand Buffet of Human Endeavor.*
 
 No neon. No gimmicks. Just the smell of something warm, nostalgic, dependable. *Chicken*.
 
