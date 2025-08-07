@@ -9,7 +9,7 @@ toc: true
 
 ### I. Arthur & The Restaurant
 
-There was a restaurant, unmarked but well-known, nestled between a shuttered shoe repair and a psychic whose window sign always read *Back in 10*. In every direction, gated windows and boarded doors—the street seeped a stench of disappointment. Above the entrance, a simple, weathered plaque read: *The Grand Buffet of Human Endeavor.*
+There was a restaurant, unmarked but well-known, nestled between a shuttered shoe repair and a psychic whose window sign always read *Back in 10*. In every direction, gated windows and boarded doors. Advertisements for plasma donation programs, military recruitement, and the brand new ePhone littered the street. Some were even strewn about the street, blown around like tumbleweeds in an old western movie. Above the entrance, a simple, weathered plaque read: *The Grand Buffet of Human Endeavor.*
 
 No neon. No gimmicks. Just the smell of something warm, nostalgic, dependable. *Chicken*.
 
@@ -25,33 +25,33 @@ He cut in, tasted, paused.
 
 "Hmm."
 
-He waved the waiter back. "Could I have another, please? A fresh one. Cooked properly this time."
+He waved the waiter back, "Could I have another, please? A fresh one. Cooked properly this time."
 
 ### II. The Cycle of Disappointment
 
-The second chicken arrived—pale, rubbery, sweat-beaded. Arthur chewed once and gagged theatrically. No protest yet. Just another mark tallied.
+The second chicken arrived: pale, rubbery, sweat-beaded. Arthur chewed once and gagged theatrically. No protest yet. Just another mark tallied.
 
-The third came cold. Raw in the center. He pushed the plate away with contempt; it skittered across the table, nearly crashing to the floor. He’d seen this before—deliberate incompetence. An institution testing your tolerance. Seeing what it can get away with.
+The third came cold. Raw in the center. He pushed the plate away with contempt; it skittered across the table, nearly crashing to the floor. He’d seen this before. Another case of deliberate incompetence. An institution testing your tolerance, seeing what it can get away with.
 
-Fourth: burnt skin, bleeding center. Fifth: deconstructed, bone wrapped in mousse, surrounded by tarragon foam.
+Fourth: a failed elevation of giblet gravy. Fifth: deconstructed, bone wrapped in mousse, surrounded by tarragon foam.
 
 It became personal.
 
 He looked around. Other diners wore similar expressions disappointment curdling into outrage. Phones flicked on. Hashtags bloomed like mold. #ChickenFail. #BuffetBetrayal.
 
-Arthur felt it—that swell of shared indignation, the warm righteousness of the wronged. He felt pride that his fellow restaurant-goers had palates refined enough to understand the disgrace being presented.
+Arthur felt a swell of shared indignation, the warm righteousness of the wronged. He felt pride that his fellow restaurant-goers had palates refined enough to understand the disgrace being presented.
 
 But... 
 
 No one stood. No one left.
 
-He waited for the fix. The apology. The correction. He always had. Systems corrected themselves eventually—didn’t they? Surely, the Chef understood what the people wanted, right? But alas, no change came. He felt his emotions boil over, like an unwatched pot of pasta. Glaring, watching his peers do nothing and continue to consume their own sad excuses for a meal.  And when his frustration finally tipped into motion, it wasn’t born of courage, but fury.
+He waited for the fix. The apology. The correction. He always had. Systems corrected themselves eventually. Didn’t they? Surely, the Chef understood what the people wanted, right? But alas, no change came. He felt his emotions boil over, like an unwatched pot of pasta. Glaring, watching his peers do nothing and continue to consume their own sad excuses for a meal.  And when his frustration finally tipped into motion, it wasn’t born of courage, but fury.
 
 ### III. Into the Kitchen
 
 "That's *IT!*" Arthur roared, shoving his chair back. He stormed toward the swinging doors, fueled by an indignation that he was the only patron brave enough to cross the boundary into a world he had only ever seen in movies.
 
-He expected chaos—steam, shouting, sizzling pans.
+He expected chaos: steam, shouting, sizzling pans.
 
 Instead, the kitchen was dim. Still. A film of smoke circulated around the ceiling.
 
@@ -59,7 +59,7 @@ At its center stood a small, feathered figure. Apron-clad. Standing on a wobbly 
 
 The Chicken.
 
-Not a man in a suit. Not a chef hiding behind allegory. Just... the Chicken itself. Alive. Focused. It moved in a frantic, twitchy rhythm—not graceful, but urgent. It spooned pale mousse onto a glistening sphere of meat jelly. It topped the mound with a twist of scorched skin, black-pepper tapioca pearls intricately placed about. Like a throne for a disgraced king.
+Not a man in a suit. Not a chef hiding behind allegory. Just... the Chicken itself. Alive. Focused. It moved in a frantic, twitchy rhythm—not graceful, but urgent. It spooned pale mousse onto a glistening disc of meat jelly. It topped the mound with a twist of scorched skin, black-pepper tapioca pearls intricately placed about. Like a throne for a disgraced king.
 
 Arthur froze.
 
@@ -89,4 +89,4 @@ His gaze fell upon a crumpled napkin lying on the floor beside his table. A smal
 
 He stared at it, and for the first time, truly considered what it might mean to cook.
 
-Slowly, Arthur leaned down. He picked up the napkin, its paper soft and yielding in his hand. He walked to the bin by the entrance, dropped it inside, and left the restaurant without looking back.
+Slowly, Arthur leaned down. He picked up the napkin, its paper soft and yielding in his hand. He walked to the bin by the entrance, dropped it inside, and left the restaurant. Still craving the nostalgia of warm chicken, Arthur stopped by the local butcher on his way home.
