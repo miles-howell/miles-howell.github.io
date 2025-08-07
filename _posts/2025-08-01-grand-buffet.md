@@ -9,7 +9,7 @@ toc: true
 
 ### I. Arthur & The Restaurant
 
-There was a restaurant, unmarked but well-known, nestled between a shuttered shoe repair and a psychic whose window sign always read *Back in 10*. In every direction, gated windows and boarded doors. Advertisements for plasma donation programs, military recruitment, and the brand new ePhone littered the street. Some were even strewn about, blowing around like tumbleweeds in an old western movie. Above the entrance, a simple, weathered plaque read: *The Grand Buffet of Human Endeavor.*
+There was a restaurant, unmarked but well-known, nestled between a shuttered shoe repair and a psychic whose window sign always read *Back in 10*. In every direction, gated windows and boarded doors. Advertisements for plasma donation programs, military recruitment, and the brand new ePhone littered the street. Above the entrance, a simple, weathered plaque read: *The Grand Buffet of Human Endeavor.*
 
 No neon. No gimmicks. Just the smell of something warm, nostalgic, dependable. *Chicken*.
 
@@ -31,7 +31,7 @@ He waved the waiter back, "Could I have another, please? A fresh one. Cooked pro
 
 The second chicken arrived: pale, rubbery, sweat-beaded. Arthur chewed once and gagged theatrically. No protest yet. Just another mark tallied.
 
-The third came cold. Raw in the center. He pushed the plate away with contempt; it skittered across the table, nearly crashing to the floor. He’d seen this before. Another case of deliberate incompetence. An institution testing your tolerance, seeing what it can get away with.
+The third came cold. Raw in the center. He pushed the plate away with contempt; it skittered across the table, nearly crashing to the floor. He’d seen this before: deliberate incompetence. An institution testing your tolerance, seeing what it can get away with.
 
 Fourth: a failed elevation of giblet gravy. Fifth: deconstructed, bone wrapped in mousse, surrounded by tarragon foam.
 
@@ -77,7 +77,7 @@ It gestured with a singed wing toward the dining room. "This… *this* they don'
 
 ### IV. The Misunderstanding
 
-Arthur sank onto a milk-crate. The tile cold tile radiated beneath him. He felt hollow, a balloon deflated not by force, but by understanding.
+Arthur sank onto a milk-crate. The cold tile radiated beneath him. He felt hollow, a balloon deflated not by force, but by understanding.
 
 This wasn’t sabotage. It wasn't laziness, contempt, or malevolence. It was fear. A desperate, misguided strategy born from being endlessly scrutinized.
 
