@@ -140,3 +140,5 @@ We don't need to wait for institutions to change their behavior. We can start pr
 The problems we face—climate change, technological disruption, social inequality, institutional trust—won't be solved by experts in isolation or by passive citizens waiting for solutions. They require all of us to become active participants in humanity's ongoing investigation of reality.
 
 The painting will never be finished. **But if we inventory our colors carefully and share our palettes generously, we might create something more beautiful than any of us could imagine alone.**
+
+test
