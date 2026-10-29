@@ -8,9 +8,11 @@ toc: true
 math: true
 ---
 
-Hamming numbers are a classic programming exercise. You solve it with Dijkstra's three-pointer trick, it passes the tests, and you move on. I didn't move on. I wanted the *billionth* one, and the textbook method can't get there.
+I came across Hamming numbers through a [Codewars kata](https://www.codewars.com/kata/526d84b98f428f14a60008da) that asks you to calculate the $n$-th one. I wasn't familiar with them. But the definition, $H = 2^i \cdot 3^j \cdot 5^k$, has three independent exponents, and when I saw $i$, $j$ and $k$ my mind immediately went to irrational numbers laid out in 3D space.
 
-This post walks through the approach I ended up with: take logarithms, turn the problem into counting lattice points inside a tetrahedron, and then use a little numerical root-finding to land on the answer. In pure Python it finds the billionth Hamming number (an 844-digit integer) in about 5 seconds, using about 8 KB of memory.
+After thinking about the problem for longer, I stumbled onto the idea the rest of this post is built on: every integer coordinate point $(i, j, k)$ that sits below a boundary $B$ is a Hamming number, and the points below $B$ are exactly the Hamming numbers below that boundary. Find the boundary that holds exactly $n$ points, and you've found the $n$-th Hamming number.
+
+That idea turned out to go far past what the kata needs. This post walks through the full approach: take logarithms, turn the problem into counting lattice points inside a tetrahedron, and then use a little numerical root-finding to land on the answer. In pure Python it finds the billionth Hamming number (an 844-digit integer) in about 5 seconds, using about 8 KB of memory.
 
 The code is on GitHub at [miles-howell/Logarithmic-Hamming-Numbers](https://github.com/miles-howell/Logarithmic-Hamming-Numbers), and there's an [interactive Desmos visualization](https://www.desmos.com/3d/d7d7piepsc) of the geometry.
 
@@ -60,7 +62,7 @@ $$i \ln 2 + j \ln 3 + k \ln 5 \le B, \qquad B = \ln X$$
 
 This is a linear inequality in three integer variables. Geometrically, the equation $i \ln 2 + j \ln 3 + k \ln 5 = B$ is a plane, and together with the three coordinate planes $i = 0$, $j = 0$, $k = 0$ it cuts out a tetrahedron in the first octant.
 
-Every Hamming number corresponds to exactly one integer point $(i, j, k)$, because prime factorizations are unique. So:
+This is where the logarithms of 2, 3 and 5 come in. They're irrational, and they set the tilt of that plane. Every Hamming number corresponds to exactly one integer point $(i, j, k)$, because prime factorizations are unique. So, stated precisely, the idea from the introduction is:
 
 > **The number of Hamming numbers $\le e^B$ is the number of integer lattice points inside that tetrahedron.**
 
@@ -155,7 +157,7 @@ Hitting a count of exactly $n$ doesn't finish the job. `count(B)` is a staircase
 So the last stage builds a narrow band around the answer:
 
 1. Start with $lo = B - 10^{-8}$ and $hi = B + 10^{-8}$.
-2. Widen until $\text{count}(lo) < n \le \text{count}(hi)$, so the $n$-th point is guaranteed to lie between the two planes.
+2. Widen until $\text{count}(lo) < n \le \text{count}(hi)$, so the $n$-th point is guaranteed to lie between the two planes. Each widening step is double the last (starting at $10^{-5}$), so even when neighbouring Hamming numbers are far apart in log space, the bracket reaches them in a few counts. The last `count(lo)` is kept for step 4, not recomputed.
 3. Walk the same $(j, k)$ grid, but this time generate the actual integers for the $i$ values between the two planes. That's usually only a handful of numbers.
 4. Sort them as exact integers and take the one at index $n - \text{count}(lo)$.
 
