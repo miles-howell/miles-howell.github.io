@@ -12,7 +12,7 @@ I came across Hamming numbers through a [Codewars kata](https://www.codewars.com
 
 After thinking about the problem for longer, I stumbled onto the idea the rest of this post is built on: every integer coordinate point $(i, j, k)$ that sits below a boundary $B$ is a Hamming number, and the points below $B$ are exactly the Hamming numbers below that boundary. Find the boundary that holds exactly $n$ points, and you've found the $n$-th Hamming number.
 
-That idea turned out to go far past what the kata needs. This post walks through the full approach: take logarithms, turn the problem into counting lattice points inside a tetrahedron, and then use a little numerical root-finding to land on the answer. In pure Python it finds the billionth Hamming number (an 844-digit integer) in about 5 seconds, using about 8 KB of memory.
+That idea turned out to go far past what the kata needs. This post walks through the full approach: take logarithms, turn the problem into counting lattice points inside a tetrahedron, and then use a little numerical root-finding to land on the answer. In pure Python it finds the billionth Hamming number (an 844-digit integer) in about 3.6 seconds, using about 8 KB of memory.
 
 The code is on GitHub at [miles-howell/Logarithmic-Hamming-Numbers](https://github.com/miles-howell/Logarithmic-Hamming-Numbers), and there's an [interactive Desmos visualization](https://www.desmos.com/3d/d7d7piepsc) of the geometry.
 
@@ -42,7 +42,7 @@ def dijkstra(n):
     return h[-1]
 ```
 
-It's elegant, and it's $O(n)$ in time. The catch is that it's also $O(n)$ in *memory*, and the stored values aren't small. They are big integers whose length grows with $n$. In my measurements, $n = 10^7$ takes 18 seconds and about 934 MB of Python heap. $n = 10^9$ would need well over 100 GB.
+It's elegant, and it's $O(n)$ in time. The catch is that it's also $O(n)$ in *memory*, and the stored values aren't small. They are big integers whose length grows with $n$. In my measurements, $n = 10^7$ takes over 7 seconds and about 934 MB of Python heap. $n = 10^9$ would need well over 100 GB.
 
 To get further, I needed a way to jump straight to the $n$-th value without building everything before it.
 
@@ -171,17 +171,17 @@ This is where floating point gives way to exact arithmetic. Logs are only used t
 
 ## Benchmarks
 
-All numbers come from [`benchmark.py`](https://github.com/miles-howell/Logarithmic-Hamming-Numbers/blob/main/benchmark.py) on Python 3.13 (CPython, single thread) on a 2.8 GHz Xeon cloud VM. Times are medians, and memory is peak Python heap measured with `tracemalloc`.
+All numbers come from [`benchmark.py`](https://github.com/miles-howell/Logarithmic-Hamming-Numbers/blob/main/benchmark.py) on Python 3.13 (CPython, single thread) on a 2.1 GHz Xeon cloud VM. Times are medians, and memory is peak Python heap measured with `tracemalloc`.
 
 | $n$ | Digits | Logarithmic | Memory | Dijkstra | Dijkstra memory |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 1,000 | 8 | 13.5 ms | 288 B | 0.28 ms | 38 KB |
-| 10,000 | 18 | 3.7 ms | 304 B | 3.6 ms | 422 KB |
-| 100,000 | 39 | 5.6 ms | 352 B | 42.6 ms | 5 MB |
-| 1,000,000 | 84 | 21.1 ms | 428 B | 606 ms | 63 MB |
-| 10,000,000 | 182 | 142 ms | 596 B | 18.4 s | 934 MB |
-| 100,000,000 | 392 | 645 ms | 1 KB | — | — |
-| 1,000,000,000 | 844 | 5.17 s | 8 KB | — | — |
+| 1,000 | 8 | 162 µs | 288 B | 222 µs | 38 KB |
+| 10,000 | 18 | 658 µs | 304 B | 2.5 ms | 422 KB |
+| 100,000 | 39 | 2.9 ms | 352 B | 30.9 ms | 5 MB |
+| 1,000,000 | 84 | 17.2 ms | 492 B | 510 ms | 63 MB |
+| 10,000,000 | 182 | 58.5 ms | 596 B | 7.21 s | 934 MB |
+| 100,000,000 | 392 | 458 ms | 1 KB | — | — |
+| 1,000,000,000 | 844 | 3.60 s | 8 KB | — | — |
 
 The same script checks correctness. `hamming(n)` matches Dijkstra for every $n$ from 1 to 20,000, and it reproduces known values, including
 
@@ -189,15 +189,16 @@ $$H_{10^9} = 2^{1334} \cdot 3^{335} \cdot 5^{404}$$
 
 What the table shows:
 
-- **The crossover is around $n = 10^4$.** Below that, Dijkstra's simple loop wins. Above it, the gap grows quickly: at $10^7$ the logarithmic method is about 130× faster and uses about a million times less memory.
-- **Scaling matches the theory.** From $10^6$ up, each 10× increase in $n$ costs 4.5× to 8× more time. The $n^{2/3}$ cost of a single count predicts $10^{2/3} \approx 4.6\times$. The rest comes from the number of count calls changing (7 at $10^8$, 9 at $10^9$).
-- **Small $n$ is oddly slow.** $n = 1000$ is slower than $n = 10{,}000$. For small $n$, neighbouring Hamming numbers are far apart in log space, and the bracket-widening step moves in fixed $10^{-5}$ increments, so it needs hundreds of counts to reach the next point. That's an easy fix (widen geometrically, or by the expected gap $1/f'(B)$), and it only matters where Dijkstra is the better choice anyway.
+- **The logarithmic method is ahead at every size tested.** At $n = 1000$ the two are close (162 µs against 222 µs). From there the gap grows quickly: at $10^7$ the logarithmic method is about 120× faster and uses about a million times less memory.
+- **Only 6 to 14 counts are needed.** For $n = 10^9$ the secant search hits the target in five counts (misses of −287, +2, +2, −1, 0), and three more build the bracket and the band.
+- **Scaling is close to the theory.** The $n^{2/3}$ cost of one count predicts $10^{2/3} \approx 4.6\times$ more time per count for each 10× increase in $n$. Measured per count, the growth was 4.5× from $10^6$ to $10^7$, and 5.9× to 7.8× at the larger sizes, a bit above the prediction.
+- **Small $n$ needed a fix.** In an earlier version, $n = 1000$ was slower than $n = 10{,}000$ and took 984 counts. For small $n$, neighbouring Hamming numbers are far apart in log space, and the bracket widened in fixed $10^{-5}$ steps, so it needed hundreds of counts to reach the next point. Doubling the step each time brought that down to 14 counts.
 
 ## Limits and caveats
 
 **Floating-point precision.** The search runs on 64-bit floats. At $n = 10^9$, $B \approx 1943$. A double's rounding step at that size is about $4 \times 10^{-13}$, and the *average* gap between neighbouring Hamming numbers in log space is $1/f'(B) \approx 6.5 \times 10^{-7}$. That's a comfortable margin on average, but averages hide close pairs. The running-subtraction loops also add a little error with each step. If a Hamming number sits within rounding error of the $lo$ or $hi$ plane, it could be misclassified. Pushing well past $10^{12}$ would call for more care: exact or interval arithmetic near the band edges, or higher-precision logs.
 
-**It's not free at small sizes.** As the benchmarks show, for a few thousand terms the sequential method is simpler and faster.
+**Small sizes don't need it.** For a few thousand terms both methods take well under a millisecond, and the sequential method is simpler and gives you the whole sequence, not just one term.
 
 **There's room left.** `count` is the only expensive part, and each $k$-slice of it is independent of the others, so it would parallelize cleanly across cores. The inner loop is also an obvious candidate for NumPy, Numba or C, which should be worth one to two orders of magnitude on its own.
 
